@@ -1,0 +1,383 @@
+.center {
+  background-color: rgba(137, 43, 226, 0.555);
+  margin-right: 28px;
+}
+.home {
+  margin-right: 28px;
+  padding: 20px;
+  border: 1px solid #d8d8d8;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav h2 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.happen_wrapper {
+  display: flex;
+}
+
+.happen_wrapper .happen_input {
+  margin-top: 11px;
+  margin-left: 15px;
+}
+.happen_wrapper .happen_input input {
+  border: none;
+  height: 50px;
+  width: 200px;
+}
+.happen_wrapper .happen_input input::placeholder {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: #828282;
+}
+.happen_icon {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.happen_wrapper .profile {
+  width: 60px;
+  height: 60px;
+}
+
+.happen_tweet_btn {
+  width: 98px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  background: #1da1f2;
+  opacity: 0.4;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 120px;
+  border: none;
+
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.happen_tweet_btn:hover {
+  cursor: pointer;
+  color: #1da1f2;
+  background-color: #ffffff;
+  border: 1px solid #1da1f2;
+  transition: 300ms;
+  opacity: 1;
+}
+.happen_tweet_btn:active {
+  background-color: #4ebbff;
+  color: #ffffff;
+}
+
+/* comments */
+
+.comment {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* border: 1px solid #000000; */
+}
+
+.comment .comment_dots {
+  margin-top: 10px;
+}
+.comment_title {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 5px; */
+}
+.comment_title h2 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.comment_title span {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+  margin-left: 5px;
+}
+
+.comment_content p {
+  width: 500px;
+  font-family: "Segoe UI";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.comment_icons {
+  margin-top: 15px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment_icon {
+  display: flex;
+  align-items: center;
+}
+.comment_icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+.comment_icon span {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 21px;
+  color: #536471;
+}
+.comment_wrapper hr {
+  margin-top: 15px;
+}
+.green_number {
+  color: #0cb345 !important;
+}
+.red_number {
+  color: #ef1c5c !important;
+}
+
+.comment_content .meet {
+  margin-top: 10px;
+  width: 500px;
+  height: 350px;
+}
+
+/* center_profile */
+.center_profile {
+  margin-right: 28px;
+  border: 1px solid #d8d8d8;
+}
+.center_top {
+  width: 160px;
+  padding: 22px 0 15px 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center_top .center_title h2 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+.center_top .center_title p {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.header_img {
+  width: 660px;
+  height: 200px;
+}
+.center_info {
+  padding: 10px 15px;
+}
+
+.center_info {
+  position: relative;
+}
+.bobur_absolute {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  left: 25px;
+  transform: translate(0, -50%);
+}
+.edit_profile {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 44px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  background-color: #ffffff;
+
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.center_info h2 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.center_info p {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.center_info h6 {
+  margin-top: 15px;
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.center_info h6 span {
+  color: #1da1f2;
+}
+
+.info_wrapper {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_wrapper .info {
+  display: flex;
+  align-items: center;
+}
+.info_wrapper .info img {
+  width: 20px;
+  height: 20px;
+}
+.info_wrapper .info span {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #000000;
+
+  opacity: 0.6;
+}
+.info_wrapper .info:nth-child(2) span {
+  color: #1da1f2;
+}
+
+.follower {
+  margin-top: 15px;
+  width: 234px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.follower p span {
+  font-weight: bold;
+  color: #000000;
+  margin-right: 5px;
+}
+.follower p {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.tab {
+  width: 80%;
+  margin: 40px auto 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.tab .tab_li {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.tab .tab_li:hover::after {
+  opacity: 1;
+}
+.tab .tab_li:hover {
+  cursor: pointer;
+}
+
+.tab .tab_li::after {
+  display: block;
+  content: "";
+
+  border: 4px solid #1da1f2;
+  border-radius: 4px;
+  transform: translateY(15px);
+  margin-bottom: 4px;
+  opacity: 0;
+}
+.tab .active_tab {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.tab .active_tab::after {
+  display: block;
+  content: "";
+
+  border: 4px solid #1da1f2;
+  border-radius: 4px;
+  transform: translateY(15px);
+  margin-bottom: 4px;
+  opacity: 1;
+}
+
+.comment_profile {
+  padding: 15px 25px;
+}
+.comment_profile .pin {
+  margin-left: 40px;
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.comment_profile .pin p {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #536471;
+}
